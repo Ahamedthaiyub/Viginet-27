@@ -1,6 +1,108 @@
 Certainly! Here's a translated version of the provided text in English:
 
 **Title:** Intrusion Detection Using Machine Learning
+# RNN Intrusion Detection with Keras
+
+## Introduction
+
+This project aims to replicate the results from the article by RC Staudemeyer, titled "Applying Machine Learning Principles to the Information Security Field Through Intelligent Intrusion Detection Systems." Additionally, it seeks to compare the performance of various Recurrent Neural Networks (RNNs) and classifiers on three datasets: KDD Cup '99, NSL KDD, and UNSW NB-15.
+
+## Usage
+
+1. **Download the code:**
+
+   ```bash
+   git clone https://github.com/sylvainlapeyrade/RNN_Intrusion-Detection_Keras.git
+   ```
+
+2. **Ensure dependencies are installed:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download the required datasets:**
+
+   See [Data](#Data) and [Directory structure](#Directory-structure) sections for more details and download links. Ensure that the dataset files have the same names as specified in the processing files.
+
+4. **Configure training parameters or use default settings.**
+
+5. **Execute the following commands:**
+
+   To train with Recurrent Neural Networks (RNNs):
+
+   ```bash
+   python3 ./src/training_rnn.py
+   ```
+
+   To train with classifiers:
+
+   ```bash
+   python3 ./src/training_classifier.py
+   ```
+
+   To view the results:
+
+   ```bash
+   python3 ./src/results_visualisation.py
+   ```
+
+   *Use `python3` on Linux and Windows for running these commands.*
+
+## Project Structure
+
+### Required Packages
+
+The project uses the following packages (with version numbers). Note that `tensorflow-gpu` is only necessary for GPU training:
+
+- `scikit-learn==0.21.2`
+- `numpy==1.16.4`
+- `pandas==0.25.0`
+- `Keras==2.2.4`
+- `tensorflow==1.14.0`
+- `tensorboard==1.14.0`
+- `tensorflow-gpu==1.14.0`
+
+### Directory Structure
+
+The project directory structure is as follows:
+
+- RNN_Intrusion-Detection_Keras
+  - data
+    - kddcup_traindata_10_percent.csv
+    - kddcup_traindata.csv
+    - kddcup_testdata_corrected.csv
+    - KDDTest+.csv
+    - KDDTest-21.csv
+    - KDDTrain+.csv
+    - KDDTrain+_20Percent.csv
+    - UNSW_NB15_testing-set.csv
+    - UNSW_NB15_training-set.csv
+  - logs
+  - models
+  - results
+  - src
+    - kdd_processing.py
+    - results_visualisation.py
+    - training_classifier.py
+    - training_rnn.py
+    - unsw_processing.py
+
+## Data
+
+The project works with three different datasets:
+
+- KDD Cup '99 (1999)
+- NSL-KDD (2009)
+- UBSW-NB15 (2015)
+
+## References
+
+This project drew inspiration from the following article: "Applying Long Short-Term Memory Recurrent Neural Networks to Intrusion Detection" by RC Staudemeyer (2015).
+
+## License
+
+[MIT License](LICENSE) © AHAMED THAIYUB A (Based on the work by Sylvain Lapeyrade during an internship at IRIT).
 
 **Introduction:**
 
