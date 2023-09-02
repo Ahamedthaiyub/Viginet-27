@@ -39,7 +39,7 @@ def print_results_classifier(model):
 
 
 def MLPClassifier_train():
-    print('*** MULTI LAYER PERCEPTRON ***')
+    print('multilayer perceptor')
     model = MLPClassifier(warm_start=True, verbose=True,
                           learning_rate='adaptive', early_stopping=True,
                           batch_size=params['batch_size'])
@@ -48,21 +48,21 @@ def MLPClassifier_train():
 
 
 def RandomForestClassifier_train():
-    print('*** RANDOM FOREST ***')
+    print('random forest')
     model = RandomForestClassifier(verbose=1, warm_start=True)
     model.fit(x_train, y_train)
     print_results_classifier(model)
 
 
 def DecisionTreeClassifier_train():
-    print('*** DECISION TREE ***')
+    print('decision tree')
     model = DecisionTreeClassifier()
     model.fit(x_train, y_train)
     print_results_classifier(model)
 
 
 def KNeighborsClassifier_train():
-    print('*** K-NEAREST NEIGHBORS ***')
+    print('knn')
     model = KNeighborsClassifier()
     model.fit(x_train, y_train)
     print_results_classifier(model)
