@@ -218,9 +218,7 @@ a true digital guardian, detected breaches before they could manifest, quelling 
 
 ## Contributors-
 
-This project was developed by 
-
-- Ahamed Thaiyub A(CSE)
+This project was developed by || Ahamed Thaiyub A❤️
 
 
 
