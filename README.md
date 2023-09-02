@@ -171,7 +171,7 @@ pip install tensorflow keras scikit-learn pandas numpy
 This code supports two datasets:
 
 - KDD Cup 1999
-- UNSW-NB15: 
+- UNSW-NB15
 
 
 
