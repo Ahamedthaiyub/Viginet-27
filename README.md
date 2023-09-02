@@ -67,10 +67,6 @@ Identifies abnormal patterns, network anomalies, and unusual data transfer activ
 
 ## Getting Started-
 
-Here's a README file for your code:
-
-# Deep Learning and Machine Learning Models for Network Intrusion Detection
-
 This repository contains Python code for training deep learning and machine learning models for network intrusion detection. The models are trained on two different datasets: KDD Cup 1999 and UNSW-NB15.
 
 ## Prerequisites
