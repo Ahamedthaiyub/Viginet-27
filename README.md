@@ -166,6 +166,12 @@ pip install tensorflow keras scikit-learn pandas numpy
    ```
 
 6. Run your script and observe the training results.
+ ## Dataset
+
+This code supports two datasets:
+
+- KDD Cup 1999: A dataset commonly used for intrusion detection research.
+- UNSW-NB15: A newer dataset specifically designed for network intrusion detection.
 
 
 
