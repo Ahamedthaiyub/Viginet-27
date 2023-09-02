@@ -1,3 +1,71 @@
+
+
+
+![Black and Red Gradient Professional LinkedIn Banner (1)](https://github.com/Ahamedthaiyub/Breach/assets/98688617/6fbcda1c-d018-494b-89b1-01500e26d4af)
+
+
+
+
+
+
+## Problem Statement
+
+In an increasingly interconnected digital landscape, organizations face an escalating threat of cybersecurity breaches and attacks. The challenge lies in efficiently detecting and responding to these threats to safeguard sensitive data, critical systems, and maintain business continuity. Traditional security measures often fall short in identifying sophisticated and evolving threats, necessitating a comprehensive solution that combines continuous monitoring and advanced analytics.
+
+
+## Solution 
+Our project addresses this problem by developing a Viginet Breach Detection System (VBDS) with Machine Learning capabilities. This system aims to proactively detect security breaches, unauthorized access, and malicious activities within an organization's network and systems. By leveraging ML algorithms and real-time monitoring, VBDS enhances the organization's ability to identify, assess, and respond to security incidents swiftly and effectively.
+
+
+## Introducing Viginet Breach Detection Systems 
+with Machine Learning: In today's dynamic cybersecurity landscape, Viginet Breach Detection Systems, armed with Machine Learning capabilities, are indispensable. These systems leverage ML algorithms to continuously monitor network traffic and system logs, swiftly identifying anomalies and potential breaches. By learning from vast datasets and historical incidents, they adeptly discern legitimate activities from malicious intrusions. This proactive approach empowers organizations to fortify their defenses, respond promptly to threats, and safeguard critical assets and sensitive data in the face of increasingly sophisticated cyberattacks.
+
+
+
+## Methodology-
+![Blank diagram](https://github.com/Ahamedthaiyub/Breach/assets/98688617/9631804e-dbd2-4c6d-bcea-f033e7bb5eee)
+
+
+
+# story of the model-
+
+In the world of cyber threats, Viginet's VBDS-ML emerged as an unstoppable sentinel. With machine learning as its sword and real-time vigilance as its shield, it safeguarded organizations from the shadows of digital darkness, ensuring a secure and thriving digital future.
+
+
+VBDS-ML, a true digital guardian, detected breaches before they could manifest, quelling threats with swift precision. Its adaptability and unwavering watchfulness made it the trusted protector of the digital realm, standing as an unyielding shield against the relentless onslaught of cyber adversaries.
+
+# Let’s learn Intel oneAPI AI Analytics Toolkit​
+# Introduction:
+
+Within the domain of Viginet Breach Detection Systems, the optimization of code for superior performance is a paramount concern. This is where Intel One API proves invaluable. Intel One API offers a consolidated and simplified programming model engineered to accelerate the execution of Viginet's high-performance breach detection tasks. By harnessing Intel One API's capabilities, we can enhance the performance of the Viginet Breach Detection System, resulting in increased speed and efficiency.
+
+
+
+# Features-
+
+Our model offers the following features:
+###  Real-Time Monitoring:
+
+Continuously monitors network traffic and system logs in real-time to detect suspicious activities and potential security breaches as they happen.
+
+### Machine Learning Algorithms:
+
+Employs advanced ML algorithms to analyze data patterns, identifying anomalies and deviations from normal behavior, thereby enhancing breach detection accuracy.
+
+### Behavioral Analysis: 
+
+Utilizes behavioral analysis to establish baseline user and system behavior, effectively detecting deviations that may indicate unauthorized access or malicious activity.
+
+### Historical Incident Learning: 
+
+Learns from historical security incidents and adapts its detection mechanisms to stay ahead of evolving threats.
+
+### Anomaly Detection: 
+
+Identifies abnormal patterns, network anomalies, and unusual data transfer activities, triggering alerts for potential breaches.
+
+## Getting Started-
+
 Here's a README file for your code:
 
 # Deep Learning and Machine Learning Models for Network Intrusion Detection
@@ -102,65 +170,48 @@ pip install tensorflow keras scikit-learn pandas numpy
 
 6. Run your script and observe the training results.
 
-### Machine Learning Models (scikit-learn)
 
-1. Import the necessary libraries at the beginning of your script:
 
-   ```python
-   import numpy as np
-   from sklearn.neighbors import KNeighborsClassifier
-   from sklearn.svm import SVC
-   from sklearn.ensemble import RandomForestClassifier
-   from sklearn.tree import DecisionTreeClassifier
-   from sklearn.neural_network import MLPClassifier
-   from sklearn.metrics import (confusion_matrix, roc_auc_score, precision_score, auc)
-   from kdd_processing import kdd_encoding
-   from unsw_processing import unsw_encoding
-   ```
 
-2. Define the parameters for your training:
 
-   ```python
-   params = {
-       'train_data': 494021,
-       'features_nb': 4,
-       'batch_size': 1024,
-       'encoder': 'standardscaler',
-       'dataset': 'kdd'
-   }
 
-   params_var = {
-       'encoder': ['standardscaler', 'labelencoder', 'minmaxscaler01', 'minmaxscaler11', 'ordinalencoder'],
-       'batch_size': [128, 256, 512, 1024, 2048]
-   }
-   ```
+## Currently-
 
-3. Load and preprocess your data using the `load_data` function. You can choose between the 'kdd' and 'unsw' datasets:
+Our website is focused on the cybersecurity industry, with an emphasis on our Viginet Breach Detection System. To optimize our model, we have integrated the Intelex extension. Please be aware that our model is not yet ready for public release, and GitHub resources are not available at this time. This decision was made by Ahamed Thaiyub A
 
-   ```python
-   x_train, x_test, y_train, y_test = load_data()
-   ```
+## Demo👇
 
-4. Train your machine learning models using functions like `MLPClassifier_train`, `RandomForestClassifier_train`, `DecisionTreeClassifier_train`, and `KNeighborsClassifier_train`.
 
-5. Run your script and observe the training results for each machine learning model.
 
-## Dataset
+https://user-images.githubusercontent.com/98688617/233414439-02304fbf-c0d4-4cb6-afd0-de1a619eb794.mp4
 
-This code supports two datasets:
 
-- KDD Cup 1999: A dataset commonly used for intrusion detection research.
-- UNSW-NB15: A newer dataset specifically designed for network intrusion detection.
 
-## License
+## Output of our model-
+![Screenshot (357)](https://github.com/Ahamedthaiyub/Breach/assets/98688617/0b591726-dae3-4a24-a1fa-01072a0ca8da)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+this  visualizes the number of breaches over time, offering insights into breach trends within the Viginet Breach Detection System.
 
-- This code was developed as part of a research project on network intrusion detection.
-- Special thanks to the authors of the KDD Cup 1999 dataset and the UNSW-NB15 dataset for providing valuable data for research purposes.
 
-Feel free to modify and use this code for your network intrusion detection projects. If you have any questions or issues, please don't hesitate to contact us.
 
-Happy coding!
+
+![Screenshot (358)](https://github.com/Ahamedthaiyub/Breach/assets/98688617/1686309b-362f-4fe8-9299-4f5b468a35b2)
+
+
+this illustrates correlations between different breach types, providing a quick overview of relationships and potential patterns in breach occurrences.
+## Note -
+It's important that github does'nt supports cufflinks and poltly, So visuals are not there in  files. So if you wish to see it kindly clone the git files.
+
+## Viginet, 
+a true digital guardian, detected breaches before they could manifest, quelling threats with swift precision. Its adaptability and unwavering watchfulness made it the trusted protector of the digital realm, standing as an unyielding shield against the relentless onslaught of cyber adversaries.
+
+## Contributors-
+
+This project was developed by 
+
+- Ahamed Thaiyub A(CSE)
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
