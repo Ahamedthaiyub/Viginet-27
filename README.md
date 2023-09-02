@@ -100,9 +100,9 @@ pip install tensorflow keras scikit-learn pandas numpy
    from keras.layers import Dense, Dropout, CuDNNLSTM, CuDNNGRU, RNN, LSTM, GRU
    from keras import Sequential
    from keras.callbacks import TensorBoard, ModelCheckpoint
-   from kdd_processing import kdd_encoding
-   from unsw_processing import unsw_encoding
-   from results_visualisation import print_results
+   from processing import kdd_encoding
+   from unsw import unsw_encoding
+   from result import print_results
    ```
 
 2. Define the parameters for your training:
