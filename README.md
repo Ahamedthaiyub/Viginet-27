@@ -211,7 +211,7 @@ this  visualizes the number of breaches over time, offering insights into breach
 
 this illustrates correlations between different breach types, providing a quick overview of relationships and potential patterns in breach occurrences.
 ## Note -
-It's important that github does'nt supports cufflinks and poltly, So visuals are not there in  files. So if you wish to see it kindly clone the git files.
+It's important that github does'nt supports cufflinks and poltly, So visuals are not there in  files. 
 
 ## Viginet
 a true digital guardian, detected breaches before they could manifest, quelling threats with swift precision. Its adaptability and unwavering watchfulness made it the trusted protector of the digital realm, standing as an unyielding shield against the relentless onslaught of cyber adversaries.
