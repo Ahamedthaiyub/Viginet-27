@@ -5,16 +5,16 @@ app = Flask(__name__)
 
 models = {
     'model1': {
-        'name': 'Model 1',
+        'name': 'Model1',
         'status': 'Idle',
     },
     'model2': {
-        'name': 'Model 2',
+        'name': 'Model2',
         'status': 'Idle',
     }
 }
 
-@app.route('/train/Model 1', methods=['POST'])
+@app.route('/train/Model1', methods=['POST'])
 def train_model(model_name):
     if model_name in models:
         
@@ -23,7 +23,7 @@ def train_model(model_name):
     else:
         return jsonify({'error': 'Model not found'}), 404
 
-@app.route('/predict/<model_name>', methods=['POST'])
+@app.route('/predict/Model2', methods=['POST'])
 def predict(model_name):
     if model_name in models:
         
