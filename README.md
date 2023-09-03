@@ -18,7 +18,7 @@ In an increasingly interconnected digital landscape, organizations face an escal
 Our project addresses this problem by developing a Viginet Breach Detection System (VBDS) with Machine Learning capabilities. This system aims to proactively detect security breaches, unauthorized access, and malicious activities within an organization's network and systems. By leveraging ML algorithms and real-time monitoring, VBDS enhances the organization's ability to identify, assess, and respond to security incidents swiftly and effectively.
 
 
-## Introducing Viginet Breach Detection Systems 
+## Introducing Viginet 
 In today's dynamic cybersecurity landscape, Viginet Breach Detection Systems, armed with Machine Learning capabilities, are indispensable. These systems leverage ML algorithms to continuously monitor network traffic and system logs, swiftly identifying anomalies and potential breaches. By learning from vast datasets and historical incidents, they adeptly discern legitimate activities from malicious intrusions. This proactive approach empowers organizations to fortify their defenses, respond promptly to threats, and safeguard critical assets and sensitive data in the face of increasingly sophisticated cyberattacks.
 
 
