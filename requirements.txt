@@ -1,1 +1,7 @@
 
+Python 3
+TensorFlow
+Keras
+scikit-learn
+pandas
+numpy
