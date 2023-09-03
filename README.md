@@ -192,6 +192,79 @@ https://github.com/Ahamedthaiyub/Breach/assets/98688617/6b3e4364-bcb5-44a3-96de-
 
 
 ### webpage is under developement
+# documentation
+## VigiNet: Intrusion Detection with Recurrent Neural Networks (RNN)
+
+**Project Overview:**
+
+This documentation provides an overview of the codebase for VigiNet, an Intrusion Detection System (IDS) using Recurrent Neural Networks (RNNs). The code is structured into two main files: `st.py` for the Streamlit application and `train.py` for training the RNN model.
+
+**Table of Contents:**
+
+1. Introduction
+2. File Structure
+3. Usage
+4. Data Loading and Preprocessing
+5. Model Architecture
+6. Training the Model
+7. Streamlit Application
+8. Conclusion
+
+## 1. Introduction
+
+VigiNet is  designed to enhance network security through the power of Recurrent Neural Networks (RNNs). This project leverages the Intrusion Detection AI Reference Kit from Intel for optimized performance.
+
+## 2. File Structure
+
+- **st.py**: Contains the Streamlit application for interacting with VigiNet.
+- **train.py**: Contains code for data loading, preprocessing, model creation, and training.
+
+## 3. Usage
+
+
+### Running the Application
+
+1. Open a terminal.
+2. Navigate to the project directory.
+3. Execute `streamlit run st.py`.
+4. Execute `python app.py`
+
+## 4. Data Loading and Preprocessing
+
+- Data is loaded and preprocessed in the `load_data()` function in `train.py`.
+- Ensure your dataset is appropriately prepared and loaded within this function.
+
+## 5. Model Architecture
+
+- The RNN model architecture is created in the `create_model(params)` function in `train.py`.
+- The model type (`LSTM`, `GRU`, or `SimpleRNN`) is determined based on the `cell_type` parameter.
+- Modify the model layers and structure as needed.
+
+## 6. Training the Model
+
+- The training process is handled in the `train_model()` function in `train.py`.
+- Adjust training parameters in the `params` dictionary in `st.py`.
+- Execute training by clicking the "Start Training" button in the Streamlit application.
+
+## 7. Streamlit Application
+
+- The Streamlit application (`st.py`) provides an interactive interface for starting the training process.
+- Visualizations and results can be added to this file based on your requirements.
+
+## 8. Conclusion
+
+VigiNet, powered by RNNs and optimized with Intel's Intrusion Detection AI Reference Kit, serves as a robust foundation for building an IDS. It includes data loading, model creation, training, and a Streamlit interface for ease of use. Customize and enhance it to meet your specific project needs.
+
+*Note: VigiNet is not only an IDS but also a showcase of Intel's AI reference kit for intrusion detection, delivering optimized performance with Intel OneAPI.*
+
+
+
+
+This documentation summarizes the key aspects of the codebase. For more detailed explanations, consult the code and relevant comments within each file.
+
+Please note that the actual code files should include detailed comments and documentation within the code to facilitate further understanding and maintenance.
+
+
 
 
 
