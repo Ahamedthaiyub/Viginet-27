@@ -40,6 +40,15 @@ VBDS-ML, a true digital guardian, detected breaches before they could manifest, 
 
 Within the domain of Viginet Breach Detection Systems, the optimization of code for superior performance is a paramount concern. This is where Intel One API proves invaluable. Intel One API offers a consolidated and simplified programming model engineered to accelerate the execution of Viginet's high-performance breach detection tasks. By harnessing Intel One API's capabilities, we can enhance the performance of the Viginet Breach Detection System, resulting in increased speed and efficiency.
 
+Intel has developed optimized AI software products aimed at enhancing performance in AI workloads. One of these products is the AI Kit, designed to deliver improved end-to-end performance for AI tasks. Additionally, Intel has introduced the Intel Extension for Scikit-learn, which accelerates training models, leading to more efficient and effective models.
+
+This acceleration in model training has a significant impact on network intrusion detection. It results in faster detection speeds and improved accuracy in classifying threat categories. Ultimately, these enhancements enable enterprises to gain threat insights more quickly, allowing them to take rapid action in response to security threats.
+
+## Intel® AI Software Products:
+
+Intel® AI Analytics Toolkit (AI Kit)
+Intel® Extension for Scikit-learn*
+
 
 
 # Features-
@@ -73,7 +82,7 @@ This repository contains Python code for training deep learning and machine lear
 
 Before running the code, ensure you have the following dependencies installed:
 
-- Python 3
+
 - TensorFlow
 - Keras
 - scikit-learn
