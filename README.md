@@ -206,7 +206,7 @@ https://github.com/Ahamedthaiyub/Viginet-BreachGuard/assets/98688617/d42e2825-c9
 
 
 ### webpage is under developement
-# documentation
+# Documentation
 ## VigiNet: Intrusion Detection with Recurrent Neural Networks (RNN)
 
 **Project Overview:**
