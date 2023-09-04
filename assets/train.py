@@ -69,7 +69,7 @@ def load_data():
 
 
 
-from keras.layers import LSTM, GRU, SimpleRNN  # Import the required cell types
+from keras.layers import LSTM, GRU, SimpleRNN 
 from tensorflow import keras
 from keras.layers import Dense
 from keras.models import Sequential, load_model
@@ -77,7 +77,7 @@ from keras.models import Sequential, load_model
 def create_model(params):
     model = Sequential()
 
-    # Determine the recurrent cell type based on the 'cell_type' parameter
+   
     if params['cell_type'].lower() == 'lstm':
         cell_type = LSTM
     elif params['cell_type'].lower() == 'gru':
@@ -207,7 +207,7 @@ def res_to_csv():
     'unit_nb': 128,
     'batch_size': 1024,
     'dropout': 0.2,
-    'cell_type': 'lstm',  # Choose 'lstm', 'gru', or 'simplernn'
+    'cell_type': 'lstm', 
     'encoder': 'labelencoder',
     'dataset': 'kdd',
     'training_nb': 1,
