@@ -4,7 +4,7 @@ from keras.utils import to_categorical
 from sklearn.preprocessing import (StandardScaler, OrdinalEncoder,
                                    LabelEncoder, MinMaxScaler)
 
-# Disable pandas warning
+
 pd.options.mode.chained_assignment = None
 
 proto_values = ['tcp', 'udp', 'arp', 'ospf', 'icmp', 'igmp', 'rtp', 'ddp',
