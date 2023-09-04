@@ -83,11 +83,14 @@ This repository contains Python code for training deep learning and machine lear
 Before running the code, ensure you have the following dependencies installed:
 
 
-- TensorFlow
-- Keras
-- scikit-learn
-- pandas
-- numpy
+scikit-learn-intelex
+geopy==2.3.0
+numpy==1.22.2
+pandas==1.4.1
+spacy==2.3.5
+scikit-learn==0.15.2 
+Python==3.9
+tensorflow==2.13.0
 
 You can install these packages using pip:
 
