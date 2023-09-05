@@ -4,6 +4,8 @@ import numpy as np
 import os
 from time import time
 from keras.layers import Dense, Dropout, LSTM, GRU
+from daal4py.oneapi import sycl_context
+patch_sklearn()
 
 from keras import Sequential
 from keras.callbacks import TensorBoard, ModelCheckpoint
