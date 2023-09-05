@@ -7,6 +7,8 @@ from sklearn.metrics import (confusion_matrix, roc_auc_score,
 from processing import kdd_encoding
 from unsw import unsw_encoding
 import numpy as np
+from daal4py.oneapi import sycl_context
+patch_sklearn()
 
 
 
