@@ -3,6 +3,8 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder, MinMaxScaler
 from keras.utils import to_categorical
 import pandas as pd
 import numpy as np
+from sklearnex import patch_sklearn
+patch_sklearn()
 
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 import pandas as pd
