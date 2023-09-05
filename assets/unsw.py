@@ -3,6 +3,8 @@ import numpy as np
 from keras.utils import to_categorical
 from sklearn.preprocessing import (StandardScaler, OrdinalEncoder,
                                    LabelEncoder, MinMaxScaler)
+from daal4py.oneapi import sycl_context
+patch_sklearn()
 
 
 pd.options.mode.chained_assignment = None
