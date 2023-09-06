@@ -197,7 +197,8 @@ Our website is focused on the cybersecurity industry, with an emphasis on our Vi
 
 
 
-https://github.com/Ahamedthaiyub/Viginet-BreachGuard/assets/98688617/d42e2825-c966-4cbd-b54a-0679edb4e070
+
+https://github.com/Ahamedthaiyub/Viginet-27/assets/98688617/f4d00281-39b6-466f-a843-9e525a83e932
 
 
 
