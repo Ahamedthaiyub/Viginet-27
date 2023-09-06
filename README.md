@@ -190,6 +190,8 @@ This code supports two datasets:
 
 Our website is focused on the cybersecurity industry, with an emphasis on our Viginet Breach Detection System. To optimize our model, we have integrated the Intelex extension. Please be aware that our model is not yet ready for public release, and GitHub resources are not available at this time. This decision was made by Ahamed Thaiyub A
 
+[View PowerPoint Presentation](https://1drv.ms/p/s!AseYDCHTp0PxlByM2uiKS1ggQYOB?e=dlZcUe)
+
 ## Demo👇
 
 
