@@ -1,10 +1,8 @@
-
 from ast import Param
 import streamlit as st
 import requests
-import matplotlib.pyplot as plt
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 st.set_page_config(
     page_title="Intrusion Detection System",
@@ -12,29 +10,27 @@ st.set_page_config(
     layout="centered"
 )
 
-
 st.title("Intrusion Detection System")
 
-if st.button("Train Model"):
+try:
+    if st.button("Train Model"):
+        response = requests.post('http://localhost:5000/train', json=Param)
 
-    response = requests.post('http://localhost:5000/train', json=Param)
+        if response.status_code == 200:
+            st.success("Training completed successfully!")
+        else:
+            st.error("Training failed. Check the Flask API.")
+except requests.exceptions.RequestException as e:
+    st.error(f"Failed to connect to the Flask API: {e}")
 
-    if response.status_code == 200:
-        st.success("Training completed successfully!")
+try:
+    if st.button("Fetch Metrics"):
+        response = requests.get('http://localhost:5000/metrics')
 
-    else:
-        st.error("Training failed. Check the Flask API.")
-
-
-if st.button("Fetch Metrics"):
-
-    response = requests.get('http://localhost:5000/metrics')
-
-    if response.status_code == 200:
-        metrics_data = response.json()
-        st.write(metrics_data) 
-
-        
-
-    else:
-        st.error("Failed to fetch metrics from the Flask API.")
+        if response.status_code == 200:
+            metrics_data = response.json()
+            st.write(metrics_data) 
+        else:
+            st.error("Failed to fetch metrics from the Flask API.")
+except requests.exceptions.RequestException as e:
+    st.error(f"Failed to connect to the Flask API: {e}")
