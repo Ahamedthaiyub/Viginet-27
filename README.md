@@ -20,7 +20,7 @@ In today's dynamic cybersecurity landscape, Viginet Breach Detection Systems, ar
 
 
 ## Methodology-
-![Blank diagram](https://github.com/Ahamedthaiyub/Breach/assets/98688617/9631804e-dbd2-4c6d-bcea-f033e7bb5eee)
+<img src ="https://github.com/Ahamedthaiyub/Viginet-27/blob/main/Blank%20diagram.png" >
 
 
 
