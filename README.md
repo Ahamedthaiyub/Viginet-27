@@ -281,7 +281,7 @@ Please note that the actual code files should include detailed comments and docu
 
 
 ## Output of our model-
-![Screenshot (357)](https://github.com/Ahamedthaiyub/Breach/assets/98688617/0b591726-dae3-4a24-a1fa-01072a0ca8da)
+<img src = "https://github.com/Ahamedthaiyub/Viginet-27/blob/main/Screenshot%20(357).png">
 
 
 this  visualizes the number of breaches over time, offering insights into breach trends within the Viginet Breach Detection System.
@@ -289,7 +289,7 @@ this  visualizes the number of breaches over time, offering insights into breach
 
 
 
-![Screenshot (358)](https://github.com/Ahamedthaiyub/Breach/assets/98688617/1686309b-362f-4fe8-9299-4f5b468a35b2)
+<img src = "https://github.com/Ahamedthaiyub/Viginet-27/blob/main/Screenshot%20(358).png">
 
 
 this illustrates correlations between different breach types, providing a quick overview of relationships and potential patterns in breach occurrences.
