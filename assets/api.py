@@ -1,4 +1,3 @@
-
 from flask import Flask, request, jsonify
 import train  
 import processing
@@ -16,7 +15,8 @@ def start_training():
             result = train.train_model(params)
             return jsonify(result), 200
         except Exception as e:
-            return jsonify({"error": str(e)}), 500
+            error_message = {"error": str(e)}
+            return jsonify(error_message), 500
 
 @app.route('/metrics', methods=['GET'])
 def get_metrics():
