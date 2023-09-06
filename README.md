@@ -1,8 +1,4 @@
-
-
-
-![Black and Red Gradient Professional LinkedIn Banner (1)](https://github.com/Ahamedthaiyub/Breach/assets/98688617/f3807dca-38ca-4ae9-9e18-c021ec1b1a60)
-
+<img src ="https://github.com/Ahamedthaiyub/Viginet-27/blob/main/Black%20and%20Red%20Gradient%20Professional%20LinkedIn%20Banner%20(1).png" >
 
 
 
