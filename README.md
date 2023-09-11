@@ -111,7 +111,9 @@ pip install tensorflow keras scikit-learn pandas numpy
    from keras.callbacks import TensorBoard, ModelCheckpoint
    from processing import kdd_encoding
    from unsw import unsw_encoding
-   from result import print_results
+   from result import print_resultsfrom sklearnex import patch_sklearn
+   from daal4py.oneapi import sycl_context
+   patch_sklearn()
    ```
 
 2. Define the parameters for your training:
